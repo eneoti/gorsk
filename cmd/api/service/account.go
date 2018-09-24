@@ -3,12 +3,12 @@ package service
 import (
 	"net/http"
 
+	"github.com/eneoti/gorsk/internal"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
 
-	"github.com/ribice/gorsk/internal/account"
+	"github.com/eneoti/gorsk/internal/account"
 
-	"github.com/ribice/gorsk/cmd/api/request"
+	"github.com/eneoti/gorsk/cmd/api/request"
 )
 
 // Account represents account http

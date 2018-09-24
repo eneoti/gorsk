@@ -3,7 +3,7 @@ package structs_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/internal/platform/structs"
+	"github.com/eneoti/gorsk/internal/platform/structs"
 	"github.com/stretchr/testify/assert"
 )
 

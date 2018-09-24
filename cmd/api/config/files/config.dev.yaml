@@ -2,7 +2,7 @@ db:
   log: true
   timeout: 5 # Query timeout in seconds
   createschema: false
-  psn: postgres://biadpozi:3_Czbl7jSjkUEWk--VP8QXMke-mFnczq@horton.elephantsql.com:5432/biadpozi
+  psn: postgres://kong:Onsky@$32!@postgres.onskycloud.com:5432/golang_gin_db?sslmode=disable
 
 server:
   port: ":8080"

@@ -11,14 +11,14 @@ import (
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk/internal/user"
+	"github.com/eneoti/gorsk/internal/user"
 
-	"github.com/ribice/gorsk/internal"
+	"github.com/eneoti/gorsk/internal"
 
-	"github.com/ribice/gorsk/cmd/api/server"
-	"github.com/ribice/gorsk/cmd/api/service"
-	"github.com/ribice/gorsk/internal/mock"
-	"github.com/ribice/gorsk/internal/mock/mockdb"
+	"github.com/eneoti/gorsk/cmd/api/server"
+	"github.com/eneoti/gorsk/cmd/api/service"
+	"github.com/eneoti/gorsk/internal/mock"
+	"github.com/eneoti/gorsk/internal/mock/mockdb"
 )
 
 func TestListUsers(t *testing.T) {

@@ -1,9 +1,9 @@
 package pgsql
 
 import (
+	"github.com/eneoti/gorsk/internal"
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
 )
 
 // NewUserDB returns a new UserDB instance

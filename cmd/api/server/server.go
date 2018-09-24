@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/eneoti/gorsk/cmd/api/config"
+	"github.com/eneoti/gorsk/cmd/api/mw"
 	"github.com/facebookgo/grace/gracehttp"
 	"github.com/go-playground/validator"
 	"github.com/labstack/echo/middleware"
-	"github.com/ribice/gorsk/cmd/api/config"
-	"github.com/ribice/gorsk/cmd/api/mw"
 
 	"github.com/labstack/echo"
 )

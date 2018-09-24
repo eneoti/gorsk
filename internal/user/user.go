@@ -2,12 +2,12 @@
 package user
 
 import (
+	"github.com/eneoti/gorsk/internal"
 	"github.com/go-pg/pg"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
 
-	"github.com/ribice/gorsk/internal/platform/query"
-	"github.com/ribice/gorsk/internal/platform/structs"
+	"github.com/eneoti/gorsk/internal/platform/query"
+	"github.com/eneoti/gorsk/internal/platform/structs"
 )
 
 // New creates new user application service

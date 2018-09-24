@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eneoti/gorsk/internal"
+	"github.com/eneoti/gorsk/internal/auth"
+	"github.com/eneoti/gorsk/internal/mock"
+	"github.com/eneoti/gorsk/internal/mock/mockdb"
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
-	"github.com/ribice/gorsk/internal/auth"
-	"github.com/ribice/gorsk/internal/mock"
-	"github.com/ribice/gorsk/internal/mock/mockdb"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -32,19 +32,19 @@
 package main
 
 import (
+	"github.com/eneoti/gorsk/internal/platform/postgres"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal/platform/postgres"
 
+	"github.com/eneoti/gorsk/cmd/api/config"
+	"github.com/eneoti/gorsk/cmd/api/mw"
+	"github.com/eneoti/gorsk/cmd/api/server"
+	"github.com/eneoti/gorsk/cmd/api/service"
+	_ "github.com/eneoti/gorsk/cmd/api/swagger"
+	"github.com/eneoti/gorsk/internal/account"
+	"github.com/eneoti/gorsk/internal/auth"
+	"github.com/eneoti/gorsk/internal/rbac"
+	"github.com/eneoti/gorsk/internal/user"
 	"github.com/go-pg/pg"
-	"github.com/ribice/gorsk/cmd/api/config"
-	"github.com/ribice/gorsk/cmd/api/mw"
-	"github.com/ribice/gorsk/cmd/api/server"
-	"github.com/ribice/gorsk/cmd/api/service"
-	_ "github.com/ribice/gorsk/cmd/api/swagger"
-	"github.com/ribice/gorsk/internal/account"
-	"github.com/ribice/gorsk/internal/auth"
-	"github.com/ribice/gorsk/internal/rbac"
-	"github.com/ribice/gorsk/internal/user"
 )
 
 func main() {

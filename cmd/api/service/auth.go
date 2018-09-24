@@ -3,10 +3,10 @@ package service
 import (
 	"net/http"
 
+	"github.com/eneoti/gorsk/cmd/api/request"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/cmd/api/request"
 
-	"github.com/ribice/gorsk/internal/auth"
+	"github.com/eneoti/gorsk/internal/auth"
 )
 
 // Auth represents auth http service

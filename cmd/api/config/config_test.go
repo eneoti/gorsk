@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk/cmd/api/config"
+	"github.com/eneoti/gorsk/cmd/api/config"
 )
 
 func TestLoad(t *testing.T) {

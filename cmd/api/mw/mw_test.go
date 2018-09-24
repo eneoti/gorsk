@@ -9,7 +9,7 @@ import (
 	"github.com/labstack/echo/middleware"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk/cmd/api/mw"
+	"github.com/eneoti/gorsk/cmd/api/mw"
 )
 
 func TestAdd(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 
 	"github.com/go-pg/pg/orm"
 
-	"github.com/ribice/gorsk/internal"
+	"github.com/eneoti/gorsk/internal"
 
-	"github.com/go-pg/pg"
-	"github.com/ribice/gorsk/internal/auth"
+	"github.com/eneoti/gorsk/internal/auth"
+	"github.com/jinzhu/gorm"
 )
 
 func main() {
@@ -21,10 +21,11 @@ func main() {
 	INSERT INTO public.roles VALUES (3, 3, 'COMPANY_ADMIN');
 	INSERT INTO public.roles VALUES (4, 4, 'LOCATION_ADMIN');
 	INSERT INTO public.roles VALUES (5, 5, 'USER');`
-	var psn = ``
+	var psn = `mysql://root:Onsky@$32!@mysql-dev.onskycloud.com:3306/onsky_authen?sslmode=disable`
 	queries := strings.Split(dbInsert, ";")
 
 	u, err := pg.ParseURL(psn)
+	fmt.Printf("u:%+v\n", u)
 	checkErr(err)
 	db := pg.Connect(u)
 	_, err = db.Exec("SELECT 1")

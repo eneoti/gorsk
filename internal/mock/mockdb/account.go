@@ -1,8 +1,8 @@
 package mockdb
 
 import (
+	"github.com/eneoti/gorsk/internal"
 	"github.com/go-pg/pg/orm"
-	"github.com/ribice/gorsk/internal"
 )
 
 // Account database mock

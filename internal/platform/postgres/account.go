@@ -3,9 +3,9 @@ package pgsql
 import (
 	"net/http"
 
+	"github.com/eneoti/gorsk/internal"
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
 )
 
 // NewAccountDB returns a new AccountDB instance
